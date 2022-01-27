@@ -1,3 +1,7 @@
+:root {
+  --theme-color: #1890ff;
+}
+
 @media screen and (max-width: 768px) {
     .sidebar {
       z-index: 999;

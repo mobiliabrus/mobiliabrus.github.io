@@ -32,5 +32,8 @@ html {
       padding-top: 45px;
       background-color: #eee;
     }
+    .markdown-section {
+      min-height: calc(100vh - 45px)
+    }
   }
   

@@ -3,37 +3,52 @@
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-  'Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media screen and (max-width: 768px) {
-    .sidebar {
-      z-index: 999;
-    }
-    .sidebar-toggle {
-      top: 0;
-      bottom: auto;
-      left: 0;
-      background-color: #fff !important;
-      width: 100% !important;
-      height: 45px;
-      padding: 0;
-      pointer-events: none;
-    }
-    .sidebar-toggle-button {
-      position: absolute;
-      right: 15px;
-      top: 15px;
-      pointer-events: all;
-    }
-    .content {
-      padding-top: 45px;
-      background-color: #eee;
-    }
-    .markdown-section {
-      min-height: calc(100vh - 45px)
-    }
+  .app-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 45px 0 0;
+    margin: 0;
+    pointer-events: none;
   }
-  
+  .app-nav ul,
+  .app-nav li {
+    padding: 0;
+    pointer-events: all;
+  }
+  .sidebar {
+    z-index: 999;
+  }
+  .sidebar-toggle {
+    top: 0;
+    bottom: auto;
+    left: 0;
+    background-color: #fff !important;
+    width: 100% !important;
+    height: 45px;
+    padding: 0;
+    pointer-events: none;
+  }
+  .sidebar-toggle-button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    pointer-events: all;
+  }
+  .content {
+    padding-top: 45px;
+    background-color: #eee;
+  }
+  .markdown-section {
+    min-height: calc(100vh - 45px);
+  }
+}

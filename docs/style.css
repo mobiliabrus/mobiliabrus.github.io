@@ -48,6 +48,8 @@ html {
     background-color: #eee;
   }
   .markdown-section {
+    max-width: 100%;
     min-height: calc(100vh - 45px);
+    padding: 30px 30px 40px;
   }
 }

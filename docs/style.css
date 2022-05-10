@@ -10,7 +10,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .app-nav {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;

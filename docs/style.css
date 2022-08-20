@@ -20,6 +20,17 @@ html {
     margin: 0;
     pointer-events: none;
   }
+  .app-nav::after {
+    position: fixed;
+    content: ' ';
+    width: calc(100% - 45px);
+    height: 45px;
+    top: 0;
+    left: 0;
+    display: block;
+    pointer-events: auto;
+    z-index: -1;
+  }
   .app-nav * {
     padding: 0;
     pointer-events: all;

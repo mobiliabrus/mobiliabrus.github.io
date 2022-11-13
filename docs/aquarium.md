@@ -14,15 +14,19 @@ Tank
 * Filter: 17-27L/hr
 
 Anubias barteri var. nana (Engl.) Crusio
-* Temperature: 22-30℃
-* Lowest Temperature: 15℃
+* Temperature: 22-30℃ Lowest 15℃
 * pH: 5.5-7.0
 * Fertilizer: once per month
 * Light: 10-12 hrs Diffused Light
+* Hardness: Hard
 
-Hemigrammus bleheri
-* Temperature: 22-26℃
-* pH: 5.4-6.8
-* Density: 1 fish/L
-* Water: 1/3 per week
+Hyphessobrycon amandae
+* Temperature: 20-28℃
+* pH: 5.4-6.6
+* Hardness: 5-15
 * Numbers: 5
+
+red cherry shrimp
+* 温度：20～26℃
+* pH：6.0～8.4
+* dH：2～10。

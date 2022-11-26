@@ -1,0 +1,12 @@
+{
+  "headers": [
+    {
+      "source": "**",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
+  ],
+  "rewrites": [
+    { "source": "/packages/:space/:file([^/]+\\.[^/]+)", "destination": "/packages/:space/docs/:file" }
+  ],
+  "redirects": [{ "source": "/:space", "destination": "/packages/:space/docs" }]
+}

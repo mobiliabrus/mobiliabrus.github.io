@@ -1,7 +1,10 @@
 {
   "private": true,
   "workspaces": [
-    "packages/zk"
+    "packages/zk",
+    "packages/img",
+    "packages/imagine",
+    "packages/tourbook"
   ],
   "scripts": {
     "start": "serve"

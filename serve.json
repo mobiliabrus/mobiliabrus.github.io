@@ -6,8 +6,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/packages/:space/assets/:file([^/]+\\.[^/]+)", "destination": "/packages/:space/docs/assets/:file" },
-    { "source": "/packages/:space/assets/:dir/:file([^/]+\\.[^/]+)", "destination": "/packages/:space/docs/assets/:dir/:file" },
-    { "source": "/packages/:space/:file([^/]+\\.[^/]+)", "destination": "/packages/:space/docs/:file" }
+    { "source": "/components/dist/:file", "destination": "/packages/components/dist/:file" }
   ]
 }

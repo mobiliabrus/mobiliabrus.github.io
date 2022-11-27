@@ -4,6 +4,7 @@
     "packages/zk",
     "packages/img",
     "packages/imagine",
+    "packages/components",
     "packages/tourbook"
   ],
   "scripts": {

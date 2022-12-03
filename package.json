@@ -8,7 +8,8 @@
     "packages/tourbook"
   ],
   "scripts": {
-    "start": "serve"
+    "start": "serve &",
+    "poststart": "npm start --workspaces --if-present"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.3.0",

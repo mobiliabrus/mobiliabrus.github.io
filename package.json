@@ -8,10 +8,10 @@
     "packages/tourbook"
   ],
   "scripts": {
-    "start": "serve &",
-    "poststart": "npm start --workspaces --if-present"
+    "start": "concurrently \"serve\" \"npm start --workspaces --if-present\""
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.0",

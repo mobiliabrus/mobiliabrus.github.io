@@ -7,5 +7,6 @@
   ],
   "rewrites": [
     { "source": "/components/dist/:file", "destination": "/packages/components/dist/:file" }
-  ]
+  ],
+  "unlisted": ["CNAME", ".*", "node_modules", "*.json", "*.js", "*.css", "yarn.lock"]
 }

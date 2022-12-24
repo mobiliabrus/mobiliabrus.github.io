@@ -8,7 +8,7 @@
     "packages/tourbook"
   ],
   "scripts": {
-    "start": "concurrently \"serve\" \"npm start --workspaces --if-present\""
+    "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0",

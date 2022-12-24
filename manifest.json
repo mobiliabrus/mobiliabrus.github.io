@@ -1,0 +1,14 @@
+{
+  "name": "lee6",
+  "short_name": "lee6",
+  "description": "",
+  "icons": [],
+  "lang": "en-UK",
+  "start_url": "/",
+  "fullscreen": true,
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "orientation": "portrait",
+  "permissions": {}
+}

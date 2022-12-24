@@ -5,10 +5,11 @@
     "packages/img",
     "packages/imagine",
     "packages/components",
-    "packages/tourbook"
+    "packages/tourbook",
+    "packages/ali"
   ],
   "scripts": {
-    "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\""
+    "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"npm start --workspace=ali\" \"serve\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
@@ -18,6 +19,8 @@
     "serve": "^14.1.2",
     "stylelint": "^14.5.0",
     "stylelint-config-ali": "^0.4.2",
-    "stylelint-scss": "^4.1.0"
+    "stylelint-scss": "^4.1.0",
+    "crypto-js": "^4.1.1",
+    "watch": "^1.0.2"
   }
 }

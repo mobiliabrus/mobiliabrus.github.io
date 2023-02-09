@@ -6,7 +6,7 @@
     "packages/imagine",
     "packages/components",
     "packages/tourbook",
-    "packages/ali"
+    "packages/fe"
   ],
   "scripts": {
     "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"npm start --workspace=ali\" \"serve\""

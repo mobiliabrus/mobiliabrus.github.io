@@ -9,7 +9,7 @@
     "packages/fe"
   ],
   "scripts": {
-    "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"npm start --workspace=ali\" \"serve\""
+    "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0",

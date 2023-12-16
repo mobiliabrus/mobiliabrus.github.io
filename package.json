@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\"",
-    "build": "npm run build --workspace=img"
+    "build": "concurrently \"npm run build --workspace=components\" \"npm run build --workspace=tourbook\" \"npm run build --workspace=img\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0",

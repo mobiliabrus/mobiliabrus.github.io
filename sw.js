@@ -1,6 +1,6 @@
 var CACHE_RUNTIME = self.location.hostname;
 var HOSTNAME_WHITELIST = [self.location.hostname];
-var FORCE_CACHE_TEST_WHITELIST = [/\.webp/, /\.gif/, /\.g1f/];
+var FORCE_CACHE_TEST_WHITELIST = [/\.webp/, /\.gif/, /\.g1f/, /antd\.min\./, /dayjs\.min\.js/, /vue\./];
 
 var getFixedUrl = function (req) {
   var now = Date.now();

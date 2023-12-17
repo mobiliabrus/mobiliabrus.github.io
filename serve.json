@@ -8,5 +8,5 @@
   "rewrites": [
     { "source": "/components/dist/:file", "destination": "/packages/components/dist/:file" }
   ],
-  "unlisted": ["CNAME", ".*", "node_modules", "*.yaml", "*.json", "*.js", "*.css", "*.ico", "*.png", "yarn.lock"]
+  "unlisted": ["CNAME", ".*", "node_modules", "*.yaml", "*.json", "*.js", "*.css", "*.ico", "yarn.lock"]
 }

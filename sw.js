@@ -1,6 +1,13 @@
 var CACHE_RUNTIME = self.location.hostname;
 var HOSTNAME_WHITELIST = [self.location.hostname];
-var FORCE_CACHE_TEST_WHITELIST = [/\.webp/, /\.gif/, /\.g1f/, /antd\.min\./, /dayjs\.min\.js/, /vue\./];
+var FORCE_CACHE_TEST_WHITELIST = [
+  /\.webp/,
+  /\.gif/,
+  /\.g1f/,
+  /antd\.min\./,
+  /dayjs\.min\.js/,
+  /vue\./,
+];
 
 var getFixedUrl = function (req) {
   var now = Date.now();
@@ -53,11 +60,7 @@ self.addEventListener('fetch', function (event) {
     } else {
       // OFFLINE CACHE MODE
       const [fetched, fetchedCopy] = createFetched();
-      event.respondWith(
-        Promise.race([fetched.catch((_) => cached), cached])
-          .then((response) => response || fetched)
-          .catch((e) => {})
-      );
+      event.respondWith(fetched.then((response) => response || fetched).catch((_) => cached));
       event.waitUntil(
         Promise.all([fetchedCopy, caches.open(CACHE_RUNTIME)])
           .then(([response, cache]) => response.ok && cache.put(event.request, response))

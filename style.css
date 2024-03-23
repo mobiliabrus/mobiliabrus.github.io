@@ -47,7 +47,7 @@ iframe {
     top: 0;
     bottom: auto;
     left: 0;
-    background-color: #fff !important;
+    background-color: #fff;
     width: 100% !important;
     height: 45px;
     padding: 0;

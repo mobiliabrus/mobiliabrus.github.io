@@ -4,3 +4,4 @@ yarn.lock
 .vscode
 packages
 .DS_Store
+.env

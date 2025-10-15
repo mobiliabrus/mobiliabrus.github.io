@@ -12,8 +12,12 @@
     "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\"",
     "build": "concurrently \"npm run build --workspace=components\" \"npm run build --workspace=tourbook\" \"npm run build --workspace=img\""
   },
+  "dependencies": {
+    "g-env.js": "^1.0.0"
+  },
   "devDependencies": {
     "concurrently": "^7.6.0",
+    "crypto-js": "^4.1.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.0",
@@ -21,8 +25,7 @@
     "stylelint": "^14.5.0",
     "stylelint-config-ali": "^0.4.2",
     "stylelint-scss": "^4.1.0",
-    "crypto-js": "^4.1.1",
     "watch": "^1.0.2"
   },
-  "packageManager": "pnpm@10.12.3+sha512.467df2c586056165580ad6dfb54ceaad94c5a30f80893ebdec5a44c5aa73c205ae4a5bb9d5ed6bb84ea7c249ece786642bbb49d06a307df218d03da41c317417"
+  "packageManager": "pnpm@10.12.3+sha512.467df2c586056165580ad6dfb54ceaad94c5a30f80893ebdec5a44c5aa73c205ae4a5bb9d5ed6bb84ea7c249ece786642bbb49d06a307df218d03da41c317417",
 }

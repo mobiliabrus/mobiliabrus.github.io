@@ -9,6 +9,7 @@
     "packages/scripts"
   ],
   "scripts": {
+    "dev": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\"",
     "start": "concurrently \"npm start --workspace=components\" \"npm start --workspace=tourbook\" \"serve\"",
     "build": "concurrently \"npm run build --workspace=components\" \"npm run build --workspace=tourbook\" \"npm run build --workspace=img\""
   },

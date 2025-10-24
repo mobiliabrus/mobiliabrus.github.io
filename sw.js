@@ -1,5 +1,5 @@
 var CACHE_RUNTIME = self.location.hostname;
-var HOSTNAME_WHITELIST = [self.location.hostname, 'api.maptiler.com'];
+var HOSTNAME_WHITELIST = [self.location.hostname];
 var FORCE_CACHE_TEST_WHITELIST = [
   /\.webp/,
   /\.gif/,

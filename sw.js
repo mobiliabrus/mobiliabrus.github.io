@@ -4,6 +4,7 @@ var FORCE_CACHE_TEST_WHITELIST = [
   /\.webp/,
   /\.gif/,
   /\.g1f/,
+  /\.woff2/,
   /antd\.min\./,
   /dayjs\.min\.js/,
   /vue\./,
